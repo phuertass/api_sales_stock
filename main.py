@@ -22,6 +22,7 @@ class SortProductsRequest(BaseModel):
     productStock: List[ProductStock]
 
 
+
 @app.get("/hello")
 def hello():
     """

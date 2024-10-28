@@ -33,6 +33,7 @@ def test_sort_products_valid_request():
             {"productId": "4", "stock": 300000}
         ]
     })
+
     assert response.status_code == 200
     assert response.json() == ["2", "4", "3", "1"]
 
